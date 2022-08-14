@@ -1,0 +1,140 @@
+/*  Header */
+header {
+  background-image: url(../img/hero-bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+header h1 {
+  font-size: 4.5rem;
+  font-weight: 600;
+}
+
+header span {
+  font-size: 2.5rem;
+}
+
+header .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* navbar */
+.drop1:hover .menu1 {
+  display: block;
+}
+
+nav .navbar-brand {
+  font-size: 28px;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+nav .nav-link {
+  color: #fff !important;
+}
+
+nav .nav-item {
+  padding-left: 10px;
+  position: relative;
+}
+
+nav .nav-item::after {
+  content: "";
+  top: 29px;
+  left: 18px;
+  position: absolute;
+  width: 0px;
+  height: 2px;
+  background-color: #fff;
+  opacity: 0;
+  transition: all 1s;
+}
+
+nav .nav-item:hover:after {
+  width: 70%;
+  opacity: 1;
+}
+
+nav .first::before {
+  content: "";
+  top: 29px;
+  left: 18px;
+  position: absolute;
+  width: 45px;
+  height: 2px;
+  background-color: #fff;
+}
+
+.line-mf {
+  width: 40px;
+  height: 5px;
+  background-color: #0078ff;
+  margin: 0 auto;
+}
+
+section h3 {
+  font-size: 48px;
+  line-height: 57.6px;
+  margin: 0px 0px 8px;
+  font-weight: 700;
+}
+
+section .card-e {
+  border-radius: 2rem;
+}
+
+/* End services*/
+/* Counter */
+
+.layer {
+  background-color: rgba(0, 119, 255, 0.5);
+}
+
+.counter {
+  background-image: url(../img/counters-bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+
+/* End header  */
+.folio .card {
+  border-radius: 0;
+}
+/* End portfolio  */
+.prof .card img {
+  transition: all 0.5s;
+}
+.prof .card:hover img {
+  transform: scale(1.1);
+}
+
+/* End header  */
+.testmonial {
+  background-image: url(../img/overlay-bg.jpg);
+  background-position: center center;
+}
+/* End header
+
+*/
+.bg {
+  background-color: #1a6ecc;
+}
+
+/* blog */
+/* .box img {
+  width: 20px;
+  height: 20px;
+} */
+
+.card-body {
+  padding: 0;
+}
+
+section {
+  background-color: #f5f5f5;
+}
